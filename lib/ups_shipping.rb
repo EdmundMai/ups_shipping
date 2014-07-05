@@ -108,9 +108,9 @@ module UpsShipping
 
     def shipper
       {
-        "Name" => "Whitehurst & Clark Inc.",
-        "AttentionName" => "Jason Low",
-        "PhoneNumber" => "212-779-4400",
+        "Name" => "Factory Name.",
+        "AttentionName" => "First Last",
+        "PhoneNumber" => "123-123-1234",
         "ShipperNumber" => UPS_API["account_number"],
         "Address" => shipper_address
       }
